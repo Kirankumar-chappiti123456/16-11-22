@@ -4,7 +4,7 @@ void fun(int x)
     x = 30;
 }
  
-int main()   // hence it is call by value we can change the value in the function .
+int main()   // hence it is call by value we can not  change the value in the function .
 {
   int y = 20;
   fun(y);
